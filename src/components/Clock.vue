@@ -32,7 +32,7 @@ export default defineComponent({
   align-self: center;
   justify-self: center;
 
-  width: 60vw;
+  width: 100vw;
   height: 100vh;
 
   padding: 1rem;
@@ -41,5 +41,11 @@ export default defineComponent({
   display: flex;
   flex-direction: row;
   justify-content:space-between;
+}
+
+@media screen and (orientation:landscape) {
+  .clock-container {
+    width: 60vw;
+  }
 }
 </style>

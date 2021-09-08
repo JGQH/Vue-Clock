@@ -21,11 +21,14 @@ export default defineComponent({
   box-sizing: border-box;
 }
 
+body {
+  background: radial-gradient(circle, hsl(0,0%,16%) 0%, hsl(0,0%,14%))
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
 
   display: grid;
 }
