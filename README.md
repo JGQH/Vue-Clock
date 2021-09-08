@@ -1,19 +1,24 @@
 # vue-clock
 
-## Project setup
-```
-npm install
-```
+Simple binary clock made with Vue using neumorphism
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Table of contents
+- [Introduction](#introduction)
+- [Technologies](#technologies)
+- [Illustrations](#illustrations)
+- [To-Do](#to-do)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Introduction
+This project is a practice with Vue JS (3.0 to be precise) while also incorporating something currently (Sort of) trending: Neumorphism.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+It is a binary clock, but instead of being color coded, it uses neumorphism to represent the zeroes and ones.
+
+## Technologies
+- Vue JS v3.0.0
+- TypeScript v4.1.5
+
+## Illustrations
+| Clock at 00:21:53 |
+|:---:|
+|![Binary Clock](./readme/readme_1.png)|
+## To-Do
