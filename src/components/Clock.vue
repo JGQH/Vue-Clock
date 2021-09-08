@@ -19,9 +19,25 @@ export default defineComponent({
     const time = new Date()
 
     return {
+      interval: 0,
       hours: time.getHours(),
       minutes: time.getMinutes(),
       seconds: time.getSeconds()
+    }
+  },
+  beforeUnmount() {
+    clearInterval(this.interval)
+  },
+  beforeMount() {
+    this.interval = setInterval(this.update, 1000)
+  },
+  methods: {
+    update() {
+      const time = new Date()
+
+      this.hours = time.getHours()
+      this.minutes = time.getMinutes()
+      this.seconds = time.getSeconds()
     }
   }
 })
